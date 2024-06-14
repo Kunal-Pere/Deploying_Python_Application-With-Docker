@@ -2,7 +2,7 @@ Hello Everyone,
 We are ready to go now..!!
 
 # Deploying_Python_Application using Docker container Platform...!!
-This is sample python application where we build it through docker file and deploy it on container.
+This is simple python application where we build it through docker file and deploy it on container.
 
 ## PRE-REQUISITE
 
@@ -29,7 +29,7 @@ This is sample python application where we build it through docker file and depl
    
    git clone <repository_URL>
 
-5) ### Now we make one app.py file and requirements.txt file for sample Python program that uses Flask to create a web application. We'll also create a Dockerfile to containerize this application:
+5) ### Now we make one app.py file and requirements.txt file for simple Python program that uses Flask to create a web application. We'll also create a Dockerfile to containerize this application:
 
    sudo nano app.py 
    
