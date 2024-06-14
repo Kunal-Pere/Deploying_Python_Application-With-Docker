@@ -11,12 +11,17 @@ This is sample python application where we build it through docker file and depl
    AMI - Ubuntu or ( you can take any as per your wish )
    InstanceType - T2.Micro ( Free-Tier )
    Key - Recommonded
-   SecurityGroup - we can use default security group where all the traffic are allowed or as per your requirement if any specific port are 
-                   present.
+   SecurityGroup - we can use default security group where all the traffic are allowed or as per your requirement if any specific port 
+                   are present.
    EBS - 8 GB
 
 ### We have created EC2 instance with above specification and connect it through SSH
 
+2) Now we update the machine with below command.
+   Sudo apt update
 
+
+
+   
 
 
