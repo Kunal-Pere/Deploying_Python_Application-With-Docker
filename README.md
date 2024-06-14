@@ -4,7 +4,7 @@ We are ready to go now..!!
 # Deploying_Python_Application using Docker container Platform...!!
 This is sample python application where we build it through docker file and deploy it on container.
 
-!!!...PRE-REQUISITE...!!!
+## PRE-REQUISITE
 
 1) Amazon EC2 Instance:
 
@@ -29,7 +29,7 @@ This is sample python application where we build it through docker file and depl
    
    git clone <repository_URL>
 
-5) ### now we make one app.py file and requirements.txt file for sample Python program that uses Flask to create a web application. We'll also create a Dockerfile to containerize this application:
+5) ### Now we make one app.py file and requirements.txt file for sample Python program that uses Flask to create a web application. We'll also create a Dockerfile to containerize this application:
 
    sudo nano app.py 
    
@@ -42,9 +42,20 @@ This is sample python application where we build it through docker file and depl
    ### Build the Docker image:
 
       docker build -t python-app .
+
+   ### Run the Docker container and expose port 5000:
+   
       docker run -itd -p 5000:5000 python-app
       
-   
+7) ### Now we can check our python-app image and container with below commands:
+
+   docker images
+
+   docker ps -a
+
+   access it on browser through --> public ip of instance:5000
+
+9) ### Now, the Flask web application is running inside a Docker container, and we can access it by visiting the specified host and port. In this case, it's http://localhost:5000. Adjust the URL accordingly if you are running Docker on a remote server or in a different environment.
       
 
 
