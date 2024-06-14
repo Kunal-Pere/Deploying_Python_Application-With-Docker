@@ -19,9 +19,9 @@ This is simple python application where we build it through docker file and depl
    
    EBS - 8 GB
 
-   #...We have created EC2 instance with above specification and connect it through SSH...#
+   ** Now connect to your instance and follow the below steps ** 
 
-3) ### Now we update the machine with below command:
+3) ### Now update the machine with below command:
    Sudo apt update
    
 4) ### Once we are done with the update we make one directory:
