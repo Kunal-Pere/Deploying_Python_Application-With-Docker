@@ -22,7 +22,7 @@ This is sample python application where we build it through docker file and depl
 3) ### Once we are done with update we make one directory
    /python_app and inside that we clone our git repository --> @Deploying_Python_Application
 
-   mkdir python_app
+   #### mkdir python_app
    #### cd python_app
    #### git clone <repository url>
 
