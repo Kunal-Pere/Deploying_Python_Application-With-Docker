@@ -36,8 +36,16 @@ This is sample python application where we build it through docker file and depl
    sudo nano requirements.txt
    
    sudo nano Dockerfile
+
+   we have pushed this files on our remote-repository. For this we used below commands:
+
+   git add .
+
+   git commit -m "msg"
+
+   git push origin main
    
-6) ### Now, let's build the image and run the Docker container using below commands:
+7) ### Now, let's build the image and run the Docker container using below commands:
 
    ### Build the Docker image:
 
@@ -47,7 +55,7 @@ This is sample python application where we build it through docker file and depl
    
       docker run -itd -p 5000:5000 python-app
       
-7) ### Now we can check our python-app image and container with below commands:
+8) ### Now we can check our python-app image and container with below commands:
 
    docker images
 
@@ -59,4 +67,7 @@ This is sample python application where we build it through docker file and depl
       
 
 ![image](https://github.com/Kunal-Pere/Deploying_Python_Application-/assets/157100045/082cc90a-8e1b-4db8-880f-0b5acee27d4f)
+
+
+![image](https://github.com/Kunal-Pere/Deploying_Python_Application-/assets/157100045/6bf92062-b91f-4c8e-9d80-7176d29da6fa)
 
