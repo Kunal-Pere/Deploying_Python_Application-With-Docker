@@ -17,7 +17,7 @@ This is sample python application where we build it through docker file and depl
 
 ### We have created EC2 instance with above specification and connect it through SSH
 
-2) Now we update the machine with below command.
+2) ### Now we update the machine with below command.
    Sudo apt update
 
 
