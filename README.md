@@ -19,6 +19,8 @@ This is sample python application where we build it through docker file and depl
 
 2) ### Now we update the machine with below command.
    Sudo apt update
+3) ### Once we are done with update we make one directory
+   python_app
 
 
 
