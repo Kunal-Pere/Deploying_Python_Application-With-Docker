@@ -15,7 +15,7 @@ This is sample python application where we build it through docker file and depl
                    present.
    EBS - 8 GB
 
-# We have created EC2 instance with above specification and connect it through SSH
+## We have created EC2 instance with above specification and connect it through SSH
 
 
 
