@@ -67,9 +67,10 @@ This is simple python application where we build it through docker file and depl
 
 
     ### Thank You
+    ### Kunal Pere
 
-   ### Kunal Pere
-      
+
+   
 
 ![image](https://github.com/Kunal-Pere/Deploying_Python_Application-/assets/157100045/082cc90a-8e1b-4db8-880f-0b5acee27d4f)
 
