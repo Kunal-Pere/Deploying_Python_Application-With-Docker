@@ -23,8 +23,8 @@ This is sample python application where we build it through docker file and depl
    /python_app and inside that we clone our git repository --> @Deploying_Python_Application
 
    mkdir python_app
-   cd python_app
-   git clone <repository url>
+   #### cd python_app
+   #### git clone <repository url>
 
 4) ### now we make one app.py file and requirements.txt file for simple Python program that uses Flask to create a web application. We'll also create a Dockerfile to containerize this application.
 
