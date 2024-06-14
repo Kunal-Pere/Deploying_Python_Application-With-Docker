@@ -58,4 +58,5 @@ This is sample python application where we build it through docker file and depl
 9) ### Now, the Flask web application is running inside a Docker container, and we can access it by visiting the specified host and port. In this case, it's http://localhost:5000. Adjust the URL accordingly if you are running Docker on a remote server or in a different environment.
       
 
+![image](https://github.com/Kunal-Pere/Deploying_Python_Application-/assets/157100045/082cc90a-8e1b-4db8-880f-0b5acee27d4f)
 
