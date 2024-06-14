@@ -9,15 +9,19 @@ This is simple python application where we build it through docker file and depl
 1) Amazon EC2 Instance:
 
    AMI - Ubuntu or ( you can take any as per your wish )
+   
    InstanceType - t2.micro ( Free-Tier )
+   
    Key - Recommonded
+   
    SecurityGroup - we can use default security group where all the traffic are allowed or as per your requirement if any specific port 
                    are required.
+   
    EBS - 8 GB
 
    #...We have created EC2 instance with above specification and connect it through SSH...#
 
-2) ### Now we update the machine with below command:
+3) ### Now we update the machine with below command:
    Sudo apt update
    
 4) ### Once we are done with the update we make one directory:
